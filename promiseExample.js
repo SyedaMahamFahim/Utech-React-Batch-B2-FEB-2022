@@ -56,7 +56,11 @@ fetchPromise.then(response=>{
 
 function getUserData(users){
     console.log("data from getUserData function",users[0].id)
+    console.log("users --- getUserData",users)
+    users.forEach(user => {
+        console.log("users id",user.id)
+    });
 }
 
-// Spread
-// foreach
+
+
